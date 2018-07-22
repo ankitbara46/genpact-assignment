@@ -1,0 +1,43 @@
+.input-container {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  margin: 15px;
+  padding: 15px;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+}
+
+.input-control {
+    margin: 5px 15px 0 0;
+    flex: 1;
+}
+
+.app-button {
+  margin: 5px 15px 0 0;
+}
+
+.employee-info-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.employee-info-container img {
+  height: 40vh;
+  width: 40vh;
+}
+
+.employee-info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+  min-width: 40vh;
+}
+
+.employee-info > *:not(:last-child) {
+  margin-right: 10px;
+}
